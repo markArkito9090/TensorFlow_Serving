@@ -1,0 +1,31 @@
+{
+  "name": "byheap",
+  "version": "1.0.11",
+  "description": "An efficient es6 implementation of priority queue using binary heap data structure",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/src || true",
+    "prepare": "babel src --out-dir lib"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "keywords": [
+    "npm",
+    "es6",
+    "priority queue",
+    "optimization",
+    "efficient",
+    "heap",
+    "binary heap",
+    "max heap",
+    "min heap",
+    "heapsort",
+    "extract min",
+    "extract max",
+    "data structure"
+  ],
+  
+  }
